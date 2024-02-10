@@ -7,6 +7,8 @@ import { cards } from "./utils/cards";
 import TextSection from "./components/TextSection";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from 'react';
+import ZoomSection from './components/ZoomSection';
+import Fullpage from './components/Fullpage';
 
 function App() {
   const video = useRef(null);
@@ -26,7 +28,6 @@ function App() {
   return (
     <>
       <Header />
-
       <main className='min-h-screen w-full'>
         {/* First section */}
         <SectionLayout>
@@ -45,6 +46,8 @@ function App() {
             </div>
           </HorizontalWrapper>
         </SectionLayout>
+
+        <Fullpage />
 
         {/* Second Section */}
         <SectionLayout>
