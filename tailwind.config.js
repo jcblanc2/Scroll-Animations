@@ -15,8 +15,8 @@ export default {
       '2xl': ['24px', '29.26px'],
       '3xl': ['28px', '50px'],
       '4xl': ['48px', '58px'],
-      '8xl': ['96px', '106px'],
-      '7xl': '7rem',
+      '5vw': '96px',
+      '5rem': '2rem',
     },
     extend: {
       fontFamily: {
@@ -24,10 +24,10 @@ export default {
         'lato': ['Lato', 'ui-sans-serif',],
       },
       colors: {
-        'primary-bleu': '#23263A',
-        'secondary-bleu': '#2B2D41',
-        'third-blue': '#212336',
-        'primary-red': '#FF4A57'
+        'cbd': '#424242',
+        'cbg': '#161616',
+        'txt': '#f2994a',
+        'black-bg': "#111111"
       },
       screens: {
         "wide": "1440px",
