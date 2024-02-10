@@ -83,7 +83,7 @@ function App() {
             }}
           >
             <iframe
-            className='border-none w-full h-[32rem]'
+              className='border-none w-full h-[32rem]'
               src="https://www.youtube.com/embed/OuaUjkZhfqQ"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
